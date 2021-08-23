@@ -78,7 +78,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4Q-Mq-mSH">
-                                <rect key="frame" x="45" y="169.5" width="91" height="36"/>
+                                <rect key="frame" x="60" y="169.5" width="91" height="36"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Вариант 1">
@@ -86,7 +86,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-Xa-HlL">
-                                <rect key="frame" x="196" y="169.5" width="94" height="36"/>
+                                <rect key="frame" x="211" y="169.5" width="94" height="36"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Вариант 2">
@@ -94,7 +94,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2D3-P1-aMy">
-                                <rect key="frame" x="350" y="169.5" width="95" height="36"/>
+                                <rect key="frame" x="365" y="169.5" width="95" height="36"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Вариант 3">
@@ -102,7 +102,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmm-F1-gWa">
-                                <rect key="frame" x="505" y="169.5" width="95" height="36"/>
+                                <rect key="frame" x="520" y="169.5" width="95" height="36"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Вариант 4">
@@ -113,16 +113,19 @@
                         <viewLayoutGuide key="safeArea" id="GrG-J9-204"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="t4Q-Mq-mSH" firstAttribute="centerY" secondItem="jVH-8E-HJT" secondAttribute="centerY" id="03P-hp-Dw5"/>
-                            <constraint firstItem="2D3-P1-aMy" firstAttribute="centerY" secondItem="jVH-8E-HJT" secondAttribute="centerY" id="0D9-Jw-fsl"/>
-                            <constraint firstItem="2D3-P1-aMy" firstAttribute="leading" secondItem="fZx-Xa-HlL" secondAttribute="trailing" constant="60" id="0gS-0R-XI9"/>
-                            <constraint firstItem="fZx-Xa-HlL" firstAttribute="centerY" secondItem="jVH-8E-HJT" secondAttribute="centerY" id="7s7-kN-Io8"/>
+                            <constraint firstItem="t4Q-Mq-mSH" firstAttribute="top" secondItem="GrG-J9-204" secondAttribute="top" constant="137.5" id="37b-ed-pp3"/>
                             <constraint firstItem="DWv-h1-7qY" firstAttribute="centerX" secondItem="jVH-8E-HJT" secondAttribute="centerX" id="9sL-vE-zQC"/>
-                            <constraint firstItem="fZx-Xa-HlL" firstAttribute="leading" secondItem="t4Q-Mq-mSH" secondAttribute="trailing" constant="60" id="Ctu-jW-PWg"/>
-                            <constraint firstItem="t4Q-Mq-mSH" firstAttribute="leading" secondItem="GrG-J9-204" secondAttribute="leading" constant="45" id="O5A-co-LE0"/>
+                            <constraint firstItem="zmm-F1-gWa" firstAttribute="leading" secondItem="2D3-P1-aMy" secondAttribute="trailing" constant="60" id="Bb0-9F-gun"/>
+                            <constraint firstItem="t4Q-Mq-mSH" firstAttribute="leading" secondItem="GrG-J9-204" secondAttribute="leading" constant="60" id="HuI-TU-z7y"/>
+                            <constraint firstItem="fZx-Xa-HlL" firstAttribute="leading" secondItem="t4Q-Mq-mSH" secondAttribute="trailing" constant="60" id="Jpv-vs-5oK"/>
+                            <constraint firstItem="fZx-Xa-HlL" firstAttribute="top" secondItem="GrG-J9-204" secondAttribute="top" constant="137.5" id="Lgf-gD-Uo9"/>
+                            <constraint firstItem="2D3-P1-aMy" firstAttribute="leading" secondItem="fZx-Xa-HlL" secondAttribute="trailing" constant="60" id="P68-Mp-kuc"/>
+                            <constraint firstItem="2D3-P1-aMy" firstAttribute="leading" secondItem="fZx-Xa-HlL" secondAttribute="trailing" constant="60" id="PNx-le-bMM"/>
+                            <constraint firstItem="zmm-F1-gWa" firstAttribute="leading" secondItem="2D3-P1-aMy" secondAttribute="trailing" constant="60" id="Qul-DO-OlL"/>
                             <constraint firstItem="DWv-h1-7qY" firstAttribute="top" secondItem="GrG-J9-204" secondAttribute="top" constant="50" id="XeT-Ak-469"/>
-                            <constraint firstItem="zmm-F1-gWa" firstAttribute="leading" secondItem="2D3-P1-aMy" secondAttribute="trailing" constant="60" id="aMY-JQ-zIx"/>
-                            <constraint firstItem="zmm-F1-gWa" firstAttribute="centerY" secondItem="jVH-8E-HJT" secondAttribute="centerY" id="gRU-M6-Jz7"/>
+                            <constraint firstItem="fZx-Xa-HlL" firstAttribute="leading" secondItem="t4Q-Mq-mSH" secondAttribute="trailing" constant="60" id="gNu-st-tWP"/>
+                            <constraint firstItem="zmm-F1-gWa" firstAttribute="top" secondItem="GrG-J9-204" secondAttribute="top" constant="137.5" id="lac-oj-Y5I"/>
+                            <constraint firstItem="2D3-P1-aMy" firstAttribute="top" secondItem="GrG-J9-204" secondAttribute="top" constant="137.5" id="u9m-iL-viY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="90u-8s-Kii"/>
@@ -146,14 +149,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fF6-uc-8UC">
-                                <rect key="frame" x="120" y="204" width="43" height="30"/>
+                                <rect key="frame" x="120" y="174.5" width="43" height="30"/>
                                 <state key="normal" title="Цвета"/>
                                 <connections>
                                     <segue destination="3nF-We-CXt" kind="show" id="tE7-le-AHN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4z-JI-w1g">
-                                <rect key="frame" x="503" y="204" width="44" height="30"/>
+                                <rect key="frame" x="503" y="174.5" width="44" height="30"/>
                                 <state key="normal" title="Числа"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="6yq-rd-fSF"/>
@@ -164,11 +167,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fF6-uc-8UC" firstAttribute="leading" secondItem="l43-TS-VKm" secondAttribute="leading" constant="120" id="9qF-Qh-GYl"/>
+                            <constraint firstItem="s4z-JI-w1g" firstAttribute="top" secondItem="l43-TS-VKm" secondAttribute="top" constant="142.5" id="Lha-nH-BUH"/>
+                            <constraint firstItem="fF6-uc-8UC" firstAttribute="top" secondItem="l43-TS-VKm" secondAttribute="top" constant="142.5" id="Npo-IP-r7f"/>
                             <constraint firstItem="FSg-iH-BAK" firstAttribute="centerY" secondItem="MbK-pj-lEi" secondAttribute="centerY" id="gUe-zJ-cox"/>
                             <constraint firstItem="l43-TS-VKm" firstAttribute="trailing" secondItem="s4z-JI-w1g" secondAttribute="trailing" constant="120" id="qHr-0H-Zes"/>
-                            <constraint firstItem="fF6-uc-8UC" firstAttribute="top" secondItem="l43-TS-VKm" secondAttribute="top" constant="172" id="uPj-oh-MNS"/>
                             <constraint firstItem="FSg-iH-BAK" firstAttribute="centerX" secondItem="MbK-pj-lEi" secondAttribute="centerX" id="vUf-Xe-7d0"/>
-                            <constraint firstItem="s4z-JI-w1g" firstAttribute="top" secondItem="l43-TS-VKm" secondAttribute="top" constant="172" id="vwD-kt-0J5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8gY-dN-2aB"/>

@@ -8,22 +8,20 @@
 import UIKit
 
 class ColorGameViewController: UIViewController {
-
+    
+    var game: Game!
+    
+    @IBOutlet var button_1: UIButton!
+    @IBOutlet var button_2: UIButton!
+    @IBOutlet var button_3: UIButton!
+    @IBOutlet var button_4: UIButton!
+    @IBOutlet var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
